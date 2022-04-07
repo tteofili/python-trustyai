@@ -108,7 +108,7 @@ class LimeExplainer:
         seed=0,
         samples=10,
         penalise_sparse_balance=True,
-        normalise_weights=True,
+        normalise_weights=False,
     ):
         # build LIME configuration
         self._jrandom = Random()

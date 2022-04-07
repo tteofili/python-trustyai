@@ -46,7 +46,7 @@ setup(
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Software Development :: Libraries :: Java Libraries"
     ],
-    packages=['trustyai', 'trustyai.model', 'trustyai.utils', 'trustyai.local'],
+    packages=['trustyai', 'trustyai.model', 'trustyai.utils', 'trustyai.local', 'trustyai.metrics'],
     include_package_data=False,
     install_requires=['Jpype1'],
     cmdclass={"install": PostInstall},
